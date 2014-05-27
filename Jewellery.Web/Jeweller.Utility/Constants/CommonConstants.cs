@@ -1,7 +1,5 @@
 ﻿
-using System.Collections.Generic;
-
-namespace MobileSurvey.Utils.Constants
+namespace Jeweller.Utility.Constants
 {
     public static class CommonConstants
     {

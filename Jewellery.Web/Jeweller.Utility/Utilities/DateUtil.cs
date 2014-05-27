@@ -1,6 +1,7 @@
 ﻿using System;
+using MobileSurvey.Utils.Utilities;
 
-namespace MobileSurvey.Utils.Utilities
+namespace Jeweller.Utility.Utilities
 {
     public static class DateUtil
     {

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
+using MobileSurvey.Utils.Utilities;
 
-namespace MobileSurvey.Utils.Utilities
+namespace Jeweller.Utility.Utilities
 {
     public static class EnumUtil
     {

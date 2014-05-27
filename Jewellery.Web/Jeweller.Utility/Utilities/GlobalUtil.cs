@@ -1,12 +1,13 @@
-﻿using System.Collections.Generic;
-using System.Text;
-using Autofac;
-using log4net;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Configuration;
 using System.Reflection;
+using System.Text;
+using log4net;
+using MobileSurvey.Utils.Utilities;
 
-namespace MobileSurvey.Utils.Utilities
+namespace Jeweller.Utility.Utilities
 {
     public static class GlobalUtil
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MobileSurvey.Utils.Utilities
+namespace Jeweller.Utility.Utilities
 {
     public static class StringUtil
     {

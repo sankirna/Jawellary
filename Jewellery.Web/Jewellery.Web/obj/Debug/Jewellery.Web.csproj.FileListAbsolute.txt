@@ -32,3 +32,4 @@ E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\WebMatri
 E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\WebMatrix.WebData.xml
 E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\obj\Debug\Jewellery.Web.dll
 E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\obj\Debug\Jewellery.Web.pdb
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\obj\Debug\Jewellery.Web.csprojResolveAssemblyReference.cache

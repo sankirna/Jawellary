@@ -1,9 +1,8 @@
 ﻿
-namespace MobileSurvey.Utils.Constants
+namespace Jeweller.Utility.Constants
 {
     public class SessionConstants
     {
-        public const string UserInfo = "UserInfoId";
-        public const string ProjectId = "ProjectId";
+        
     }
 }
