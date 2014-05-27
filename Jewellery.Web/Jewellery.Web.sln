@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jewellery.Web", "Jewellery.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeweller..BusinessLogic", "Jeweller..BusinessLogic\Jeweller..BusinessLogic.csproj", "{8BDBFFB8-A12A-489C-952A-877AE1035EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeweller.DataModel", "Jeweller.DataModel\Jeweller.DataModel.csproj", "{E97E2804-333E-4C17-B173-2B70616F60A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeweller.DataAccess", "Jeweller.DataModel\Jeweller.DataAccess.csproj", "{E97E2804-333E-4C17-B173-2B70616F60A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeweller.Utility", "Jeweller.Utility\Jeweller.Utility.csproj", "{25D733C9-5E01-47F0-96CA-8EF54D85C225}"
 EndProject
