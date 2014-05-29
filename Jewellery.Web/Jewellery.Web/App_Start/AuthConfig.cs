@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Jewellery.Web
+﻿namespace Jewellery.Web
 {
     public static class AuthConfig
     {
