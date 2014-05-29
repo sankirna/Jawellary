@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jeweller.BusinessLogic</RootNamespace>
-    <AssemblyName>Jeweller._.BusinessLogic</AssemblyName>
+    <AssemblyName>Jeweller.BusinessLogic</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
