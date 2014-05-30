@@ -10,9 +10,9 @@ namespace Jewellery.Web
             // log4net file info.
             var log4NetFileInfo =
                 new FileInfo(Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "Conf/log4net.config"));
-            
+
             // log4net initializing configuration.
-            //log4net.Config.XmlConfigurator.Configure(log4NetFileInfo); 
+            log4net.Config.XmlConfigurator.Configure(log4NetFileInfo); 
         }
     }
 }

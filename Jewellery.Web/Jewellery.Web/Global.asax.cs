@@ -17,12 +17,21 @@ namespace Jewellery.Web
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-
+            IocConfig.RegisterDependencies();
+            // Set Mapping using automapper.
+            AutoMapperConfig.Mapping();
+            // Log4net configuration.
+            LogConfig.RegisterLog4NetConfig();
+            // Database configuration.
+            DatabaseConfig.ConfigureDataBase();
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            AuthConfig.RegisterAuth();
+            //    ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+            //DataAnnotationsModelValidatorProvider.RegisterAdapter(
+            //   typeof(RequiredIfAttribute),
+            //   typeof(RequiredIfValidator));
         }
     }
 }
