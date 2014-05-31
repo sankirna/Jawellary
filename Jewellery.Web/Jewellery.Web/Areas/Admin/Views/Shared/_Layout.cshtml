@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tours and Traveling -@ViewBag.Title</title>
+    @Styles.Render("~/Content/assets/css")
+    @Scripts.Render("~/Content/assets/js")
+    @Scripts.Render("~/Scripts/jquery.validate.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.js")
+
+    @if (IsSectionDefined("scripts"))
+    {
+        @RenderSection("scripts", required: true)
+            
+    }
+</head>
+<body class="fixed-top">
+    <div id="headerPart">
+        @Html.Partial("_Header")
+       
+    </div>
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+        @Html.Partial("_Sidebar")
+
+        <!-- BEGIN PAGE -->
+        <div class="page-content">
+            <div id="dialogforMyProfile"></div>
+            @RenderBody()
+        </div>
+        <!-- END PAGE -->
+    </div>
+    <!-- END CONTAINER -->
+    @Html.Partial("_Footer")
+
+
+
+</body>
+</html>

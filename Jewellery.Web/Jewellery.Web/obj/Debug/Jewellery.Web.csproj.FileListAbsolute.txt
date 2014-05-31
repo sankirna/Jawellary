@@ -68,3 +68,11 @@ D:\Personal\New folder\Jewellery.Web\Jewellery.Web\bin\WebMatrix.WebData.xml
 D:\Personal\New folder\Jewellery.Web\Jewellery.Web\obj\Debug\Jewellery.Web.csprojResolveAssemblyReference.cache
 D:\Personal\New folder\Jewellery.Web\Jewellery.Web\obj\Debug\Jewellery.Web.dll
 D:\Personal\New folder\Jewellery.Web\Jewellery.Web\obj\Debug\Jewellery.Web.pdb
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\Autofac.dll
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\Autofac.Integration.Mvc.dll
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\AutoMapper.dll
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\log4net.dll
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\Autofac.xml
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\Autofac.Integration.Mvc.xml
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\AutoMapper.xml
+E:\Repository Projects\Jawellary\Source\Jewellery.Web\Jewellery.Web\bin\log4net.xml
