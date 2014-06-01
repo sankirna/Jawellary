@@ -3,9 +3,7 @@
 <head>
     <title>Tours and Traveling -@ViewBag.Title</title>
     @Styles.Render("~/Content/assets/css")
-    @Scripts.Render("~/Content/assets/js")
-    @Scripts.Render("~/Scripts/jquery.validate.js")
-    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.js")
+   
 
     @if (IsSectionDefined("scripts"))
     {
@@ -33,6 +31,26 @@
     @Html.Partial("_Footer")
 
 
+     @Scripts.Render("~/Content/assets/js")
+    
+    <script type="text/javascript">
+        $(function () {
+            // TODO  Set Arrow design 
+            $('.page-sidebar').find('li.active').find('.title').after("<span class='selected'></span>");
+            $("li.active").parents().parent("li").addClass("active open");
+            $("li.active").parents().parent("li.li-expandable").click();
+            $("li.active").parents().parent("li").find("span.arrow").addClass("open");
+            $('li.active').find('.title').after("<span class='selected'></span>");
 
+            $.each($(".collapse").find(".li-expandable").parents("li"), function (index, ele) {
+                if ($(this).find("li").length <= 0) {
+                    $(this).hide();
+                }
+
+            });
+
+            App.init(); // initlayout and core plugins  
+        });
+</script>
 </body>
 </html>
