@@ -59,6 +59,7 @@ namespace Jewellery.Web
                 ));
 
             bundles.Add(new ScriptBundle("~/Content/assets/js/Login").Include(
+                 "~/Areas/Admin/Content/assets/plugins/jquery-validation/dist/jquery.validate.js",
              "~/Areas/Admin/Content/assets/plugins/jquery-validation/dist/jquery.validate.min.js",
              "~/Areas/Admin/Content/assets/scripts/app.js",
              "~/Areas/Admin/Content/assets/scripts/login.js"
@@ -73,8 +74,11 @@ namespace Jewellery.Web
             #endregion
 
             bundles.Add(new StyleBundle("~/Content/assets/css").Include(
+                  "~/Areas/Admin/Content/assets/plugins/bootstrap/css/bootstrap.css",
                   "~/Areas/Admin/Content/assets/plugins/bootstrap/css/bootstrap.min.css",
+                  "~/Areas/Admin/Content/assets/plugins/bootstrap/css/bootstrap-responsive.css",
 "~/Areas/Admin/Content/assets/plugins/bootstrap/css/bootstrap-responsive.min.css",
+"~/Areas/Admin/Content/assets/plugins/font-awesome/css/font-awesome.css",
 "~/Areas/Admin/Content/assets/plugins/font-awesome/css/font-awesome.min.css",
 "~/Areas/Admin/Content/assets/css/style-metro.css",
 "~/Areas/Admin/Content/assets/css/style.css",
@@ -85,13 +89,15 @@ namespace Jewellery.Web
                    ));
 
             bundles.Add(new ScriptBundle("~/Content/assets/js").Include(
-           "~/Areas/Admin/Content/assets/plugins/jquery-1.8.3.min.js",
 "~/Areas/Admin/Content/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js",
+"~/Areas/Admin/Content/assets/plugins/bootstrap/js/bootstrap.js",
 "~/Areas/Admin/Content/assets/plugins/bootstrap/js/bootstrap.min.js",
 "~/Areas/Admin/Content/assets/plugins/breakpoints/breakpoints.js",
+"~/Areas/Admin/Content/assets/plugins/jquery-slimscroll/jquery.slimscroll.js",
 "~/Areas/Admin/Content/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js",
 "~/Areas/Admin/Content/assets/plugins/jquery.blockui.js",
 "~/Areas/Admin/Content/assets/plugins/jquery.cookie.js",
+"~/Areas/Admin/Content/assets/plugins/uniform/jquery.uniform.js",
 "~/Areas/Admin/Content/assets/plugins/uniform/jquery.uniform.min.js",
 "~/Areas/Admin/Content/assets/scripts/app.js"
 
@@ -99,6 +105,8 @@ namespace Jewellery.Web
                 ));
 
             #endregion "Style"
+            BundleTable.EnableOptimizations = false;
+
 
         }
     }

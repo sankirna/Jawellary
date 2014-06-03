@@ -3,7 +3,8 @@
 <head>
     <title>Tours and Traveling -@ViewBag.Title</title>
     @Styles.Render("~/Content/assets/css")
-   
+     @Scripts.Render("~/bundles/jquery")
+     @Scripts.Render("~/Content/assets/js")
 
     @if (IsSectionDefined("scripts"))
     {
@@ -30,8 +31,7 @@
     <!-- END CONTAINER -->
     @Html.Partial("_Footer")
 
-
-     @Scripts.Render("~/Content/assets/js")
+     
     
     <script type="text/javascript">
         $(function () {
